@@ -22,7 +22,7 @@ jobs:
       - name: Prepare publish directory
         run: |
           mkdir public
-          cp cv.pdf public/milton_torres_cv.pdf
+          cp cv.pdf public/nicole_tineo_cv.pdf
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
